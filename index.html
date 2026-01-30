@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Web Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <h1>My Personal Web Page</h1>
+        <h2>Introducing myself</h2>
+        <p class="text1">
+            My name is Francesco, and I was born on December 21, 2010, at 10:30 a.m. I consider myself a curious and thoughtful person with a strong inclination towards science, especially calculations, data analysis, and problem-solving. I enjoy exploring, observing, and learning, both through play and study, and I value the close bonds I have with my family and my pet. Throughout my life, my interests have evolved: I was initially drawn to the idea of ​​becoming a pilot, and later to paleontology, motivated by my fascination with dinosaurs and the mysteries of the past, which ultimately solidified my desire to dedicate myself to science. Although I am aware of the limitations of fiction, I am inspired by the real possibilities offered by scientific advancements, nature documentaries, and the constant support of my parents, who guide me in a continuous process of learning and personal exploration, summarized in Jean-Paul Sartre's phrase: "I am not what I am, and I am what I am not."
+          </p>
+         
+        <h2>My hobbies</h2>
+        <ul class="text2">
+            <li>Draw</li>
+            <li>Watch tv</li>
+            <li>Play videogames</li>
+            <li>Play chess</li>
+        </ul>
+
+        <h2>Something I like</h2>
+        <img src="image.jpg" alt="The Holy Trinity" width="200">
+    
+        <h2>Link of a page</h2>
+        <a class="link" href="https://www.notion.com/es">Visit Notion</a>
+
+        <h2>Change the text</h2>
+        <button onclick="changeText()">Click Me</button>
+        <p id="message">This text will change.</p>
+
+        <h2>Name and email</h2>
+        <form id="signupForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br>
+            <span id="nameError" class="error"></span><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br>
+            <span id="emailError" class="error"></span><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"><br>
+            <span id="passwordError" class="error"></span><br>
+            <button type="submit">Submit</button>
+        </form>
+
+        <h2>Background color</h2>
+        <button onclick="cambiarFondo()">Change background</button>
+        <p>Change to a darker color.</p>
+        <script src="script.js"></script>
+    
+    </div>
+</body>
+</html>
+
+

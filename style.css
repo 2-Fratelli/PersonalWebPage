@@ -1,0 +1,80 @@
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+@media (max-width: 600px) {
+  .container {
+      width: 100%;
+      padding: 10px;
+  }
+}
+
+body {
+    background-color: #e5e5e5;
+    font-family: 'Roboto', sans-serif;
+  }
+
+h1 {
+  font-size: 48px;
+  color: #212529;
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  color: #212529;
+  text-align: left;
+}
+
+.text1 {
+  background-color: #fff;
+  font-size: 20px;
+  color: #000000;
+  text-align: justify;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.text2 {
+  background-color: #fff;
+  font-size: 20px;
+  color: #000000;
+  text-align: justify;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  width: 200px;
+}
+
+.link {
+  display: block;
+  background-color: #fff;
+  color: black; 
+  text-decoration: underline;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  width: 85px;
+}
+
+.link:hover {
+  background-color: #fca311;
+  color: black;
+  text-decoration: underline;
+}
+
+.formtext {
+  background-color: #fff;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  width: 500px;
+}
+
+.error {
+  color: #d20000;
+}
