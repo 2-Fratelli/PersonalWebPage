@@ -41,9 +41,10 @@ function changeText() {
 function cambiarFondo() {
     if (oscuro) {
         document.body.style.backgroundColor = "#e5e5e5";
+        document.body.style.color = "#000000";
     } else {
         document.body.style.backgroundColor = "#707070";
+        document.body.style.color = "#ffffff";
     }
     oscuro = !oscuro;
     }
-    
