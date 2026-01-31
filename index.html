@@ -17,10 +17,10 @@
          
         <h2>My hobbies</h2>
         <ul class="text2">
-            <li>Draw</li>
-            <li>Watch tv</li>
-            <li>Play videogames</li>
-            <li>Play chess</li>
+            <li class="text">Draw</li>
+            <li class="text">Watch tv</li>
+            <li class="text">Play videogames</li>
+            <li class="text">Play chess</li>
         </ul>
 
         <h2>Something I like</h2>
@@ -31,17 +31,17 @@
 
         <h2>Change the text</h2>
         <button onclick="changeText()">Click Me</button>
-        <p id="message">This text will change.</p>
+        <p id="message" class="text">This text will change.</p>
 
         <h2>Name and email</h2>
         <form id="signupForm">
-            <label for="name">Name:</label>
+            <label class="text" for="name">Name:</label>
             <input type="text" id="name" name="name"><br>
             <span id="nameError" class="error"></span><br>
-            <label for="email">Email:</label>
+            <label class="text" for="email">Email:</label>
             <input type="email" id="email" name="email"><br>
             <span id="emailError" class="error"></span><br>
-            <label for="password">Password:</label>
+            <label class="text" for="password">Password:</label>
             <input type="password" id="password" name="password"><br>
             <span id="passwordError" class="error"></span><br>
             <button type="submit">Submit</button>
@@ -49,11 +49,9 @@
 
         <h2>Background color</h2>
         <button onclick="cambiarFondo()">Change background</button>
-        <p>Change to a darker color.</p>
+        <p class="text">Change to a darker color.</p>
         <script src="script.js"></script>
     
     </div>
 </body>
 </html>
-
-
